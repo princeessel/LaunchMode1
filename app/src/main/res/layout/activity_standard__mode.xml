@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Standard_ModeActivity"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Task"
+            android:id="@+id/valueTV"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Task"
+            android:id="@+id/singleTask"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single top"
+            android:id="@+id/singleTop"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Instance"
+            android:id="@+id/singleInstanceMode"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Standard Mode"
+            android:id="@+id/standardMode"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/taskInfoTV"
+                    android:layout_height="wrap_content"
+
+
+                    />
+        </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
